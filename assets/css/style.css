@@ -25,7 +25,7 @@ h1 {
     color: #555;
 }
 
-.btn-2 {
+.btn-2, .btn-3 {
     background: rgb(88, 209, 118);
     border: none;
     color: #fff;
@@ -40,6 +40,13 @@ a:hover {
     text-decoration: none;
     color: #fff;
 }
+
+@media screen and (min-width:1551px) {
+    .btn-3 {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 900px) and (max-width: 1550px) {
     .carousel-inner .carousel-item img {
         height: 70vh;
@@ -54,6 +61,10 @@ a:hover {
     .carousel-item {
         height: 70.221vh;
        
+    }
+
+    .btn-3 {
+        display: none;
     }
 
 }
@@ -87,9 +98,13 @@ a:hover {
     }
 
     .btn-2 {
-        position: absolute;
-        bottom: -550px;
-        right: 37%;
+        display: none;
+    }
+
+    .btn-3 {
+        display: inline-block;
+        margin-left: 37%;
+        margin-top: 40px;
     }
 }
 
