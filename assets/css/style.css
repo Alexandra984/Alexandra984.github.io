@@ -63,18 +63,19 @@ a:hover {
         margin-top: 71px;
     }
     .carousel-inner .carousel-item img {
-        height: 100vh;
+        height: 44vh;
         width: 100%;  
     }
     
     h1 {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         top: 44%;
     }
 
     h2 {
         font-size: 1.5rem;
         margin-top: -50px;
+        text-align: center;
     }
     p {
         font-size: 1rem;
@@ -83,6 +84,12 @@ a:hover {
     .carousel-item {
         height: 50.221vh;
        
+    }
+
+    .btn-2 {
+        position: absolute;
+        bottom: -330px;
+        right: 37%;
     }
 }
 
