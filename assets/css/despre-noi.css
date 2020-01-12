@@ -1,0 +1,121 @@
+#about-us {
+    margin-top: 100px;
+
+}
+
+#team-title {
+    text-align: center;
+    
+}
+
+.item {
+    margin-top: 40px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.5);
+}
+
+.item p {
+    padding: 0 30px;
+}
+.item img {
+    max-height: 250px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+blockquote {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 30px;
+    color: rgb(48, 199, 93) ;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size: 30px;
+    color: rgb(48, 199, 93) ;
+    position: relative;
+    line-height: 10px;
+    bottom: -6px;
+    left: 1px;
+}
+
+#opinions {
+    margin-top: 100px;
+
+}
+
+.opinions-title h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes .box {
+    font-style: italic;
+}
+
+.box i {
+    color:rgb(48, 199, 93) ;
+    align-self: center;
+}
+
+
+#info {
+    margin-top: 70px;
+}
+
+.info-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 3rem;
+    grid-gap: 20px;
+}
+
+.facebook {
+    color: #3b5998;    
+    text-align: center;
+    margin-top: 50px;
+  
+}
+
+.box ul {
+    list-style:none;
+    margin-top: 15px;
+}
+
+.box ul li::before {
+    content: "\2022";
+    color: rgb(48, 199, 93);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+

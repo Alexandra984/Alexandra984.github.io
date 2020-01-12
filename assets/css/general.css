@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:2;
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 45px;
+    padding-top: 10px;
+}
+
+#nav-bar ul li a:hover {
+    color: rgb(44, 202, 44)!important;
+}
+
+footer {
+    padding: 2.2rem;
+  }
+  
+footer p {
+    margin: 0;
+    text-align: center;
+}
