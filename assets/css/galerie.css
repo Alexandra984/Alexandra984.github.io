@@ -66,6 +66,12 @@ img {
 
     .zoom-on-hover:hover .description {
         opacity: 1;
-        font-size: 10px;
     }
 }
+
+@media screen and (max-width:900px) {
+  .zoom-on-hover:hover .description {
+      font-size: 14px;
+}
+}
+
