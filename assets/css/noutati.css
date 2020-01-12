@@ -77,3 +77,12 @@ a:hover {
     display: none;
 }
 
+@media screen and (max-width:900px) {
+    .info {
+        margin: 100px 20px;
+    }
+
+    .box {
+        padding: 1.3rem;
+    }
+}
